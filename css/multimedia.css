@@ -1,0 +1,57 @@
+@font-face {
+    font-family: starwars2;
+    src: url(../fonts/Stjldbl2.ttf)
+}
+h1 {
+    line-height: 1; font-size: 1em;
+	font-family: starwars;
+    background-image:url(../img/cabeza7.jpg);
+    background-size: 100%;
+	padding: 70px;
+	color: yellow;
+    font-size: 100px;
+	text-align: center;
+}
+/**estils de navegacio**/
+#navmultimedia{
+    background-color:black;
+}
+/**estils de contingut**/
+h3{
+    color: aliceblue;
+}
+#contingut{
+    padding-left: 280px;
+    padding-right: 280px;
+}
+.video{
+    text-align: center;
+    background-image: url(../img/h3.jpg);
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+}
+#video1{
+  margin-bottom: 150px;
+    display: none;
+}
+/*AUDIO*/
+#audios{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-image: url("../img/h3.jpg");
+    font-family: starwars2;
+    padding: 20px;
+}
+.audio{
+    padding: 10px;
+    text-align: center;
+    font-family: starwars2;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}

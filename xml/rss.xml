@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Canal RSS STAR WARS</title>
+        <link>http://127.0.0.1/</link>
+        <description>STAR WARS, Noticias</description>
+        <pubDate> Feb 14 2019 07:16:30 GMT </pubDate>
+        <lastBuildDate> Feb 14 2019 00:00:01 GMT </lastBuildDate>
+        <language> es </language>
+        <copyright> Copyright 2019, Arnau Copovi</copyright>
+        <webMaster> arnaucop92@hotmail.com</webMaster>
+        <managingEditor> arnaucop92@hotmail.com.com </managingEditor>
+        <category> Ocio </category>
+        <generator> Notepad++ </generator>
+        <ttl> 120 </ttl>
+        <docs> http://blogs.law.harvard.edu/tech </docs>
+        <image>
+            <title> STAR WARS</title>
+            <description>Pagina STAR WARS</description>
+            <url>http://127.0.0.1/img/iconos/reparto.png</url>
+            <width>120</width>
+            <height>120</height>
+            <link>http://127.0.0.1/</link>
+        </image>
+        <item>
+            <title>¿Por qué Disney no va a seguir produciendo tantas películas de Star Wars?</title>
+            <link>http://127.0.0.1/html/noticia1rss.html</link>
+            <guid>http://127.0.0.1/html/noticia1rss.html</guid>
+            <pubDate> Jan 11 2019 00:15:30 GMT</pubDate>
+            <description>
+                <![CDATA[ Un directivo de la compañía aceptó que estaban saturando a la audiencia con tantos filmes en tan corto tiempo. La siguiente trilogía de películas estará a cargo de los creadores de la serie Game of Thrones.<br>
+                <img src="http://127.0.0.1/img/iconos/reparto.png"></img> ]]>
+            </description>
+            <enclosure url="http://127.0.0.1/multimedia/audio/sonido1.mp3" length="3154078" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>Disney anuncia una nueva serie de 'Star Wars' para su plataforma de streaming</title>
+            <link>http://127.0.0.1/html/noticia2rss.html</link>
+            <guid>http://127.0.0.1/html/noticia2rss.html</guid>
+            <pubDate> Jan 11 2019 00:15:30 GMT</pubDate>
+            <description>
+                <![CDATA[ El CEO de Disney, Bob Iger, ha anunciado esta semana varias novedades sobre la plataforma en streaming Disney.<br> 
+                <img src="http://127.0.0.1/img/iconos/darthvader.png"></img> ]]>
+            </description>
+        </item>
+        <item>
+            <title>Rumor: El actor Matt Smith interpretaría a un joven Palpatine en el Episodio IX</title>
+            <link>http://127.0.0.1/html/noticia3rss.html</link>
+            <guid>http://127.0.0.1/html/noticia3rss.html</guid>
+            <pubDate> Jan 11 2019 00:15:30 GMT</pubDate>
+            <description>
+                <![CDATA[ Este es un rumor bastante extraño, pero según el podcast The Weekly Planet Podcast, el recientemente anunciado actor Matt Smith interpretaría a un joven Palpatine en el Episodio final de la saga, así es, a un joven Emperador.<br> <img src="http://127.0.0.1/img/iconos/nave.png"></img> ]]>
+            </description>
+        </item>
+    </channel>
+</rss>

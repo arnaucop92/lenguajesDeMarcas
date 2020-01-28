@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+@font-face {
+    font-family: starwars;
+    src: url(../fonts/Starjhol.ttf)
+}
+h1 {
+    line-height: 1; font-size: 1em;
+	font-family: starwars;
+    background-image:url(../img/espacio.png);
+	padding: 70px;
+	color: yellow;
+    font-size: 100px;
+	text-align: center;
+}
+.rss{
+ width: 55px;
+    float: right;
+     
+}
+.imatgeportada{ 
+    width:50%;
+    position: relative;
+}
+#contenidor {
+    background-image: url(../img/fondo1.png);
+}
+
+/*estils de contingut*/
+h2 {
+    border-bottom-style: solid;
+    border-bottom-color:#828282; 
+    border-top-style: solid;
+    border-top-color:#828282 ;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    color:white; 
+    margin-top: 50px;
+}
+h3 {
+    color: aliceblue;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-image: url("../img/h3.jpg");
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    margin-top: 40px;
+    font-family: starwars2;
+}
+#contingut p {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color:gainsboro;
+    margin-bottom: 40px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px; 
+    
+    
+}
+#fondo {
+    padding-left: 280px;
+    padding-right: 280px;
+}
+.imatgecontingut {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+/*banner*/
+#divBanner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#banner{
+    width: 60%;
+    height: 250px;
+    border: 2px solid bisque;
+
+}

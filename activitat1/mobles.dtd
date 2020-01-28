@@ -1,0 +1,12 @@
+<!ELEMENT anunci (tendes)>
+<!ELEMENT tendes (mobles, info, ubicacio)>
+<!ELEMENT mobles (moble*)>
+<!ELEMENT moble (nom, preu,descripcio)>
+<!ATTLIST moble id ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT unicacio (tenda*)>
+<!ATTLIST tenda id ID #REQUIRED>
+<!ELEMENT tenda (#PCDATA)>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mobles SYSTEM "mobles.dtd">
+<?xml-stylesheet type="text/css" href="mobles.css"?>
+<anunci>
+	<tendes>
+		<mobles>
+			<moble id="moble1">
+				<nom>
+					Cadira Flüker
+				</nom>
+				<preu>
+					23,95€
+				</preu>
+				<descripcio>
+					Còmoda cadira de fusta de roure
+				</descripcio>
+			</moble>
+			<moble id="moble2">
+				<nom>
+					Sofà Kansatör
+				</nom>
+				<preu>
+					295€
+				</preu>
+				<descripcio>
+					Sofà reclinable i amb massatge incorporat
+				</descripcio>
+			</moble>
+			<moble id="moble3">
+				<nom>
+					Taula Gröstig
+				</nom>
+				<preu>
+					199€
+				</preu>
+				<descripcio>
+					Taula de fusta d'olivera massissa.
+				</descripcio>
+			</moble>
+		</mobles>
+		<info>
+			ON ESTEM?
+		</info>
+		<ubicacio>
+			<tenda id="tenda1">
+				Polígon La Safeta Alzira
+			</tenda>
+			<tenda id="tenda2">
+				Carretera Barxeta, s/n Xàtiva
+			</tenda>
+		</ubicacio>
+	</tendes>
+</anunci>

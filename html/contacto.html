@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Llenguatge de marques">
+    <meta name="keywords" content="HTML,CSS,XML,XMLS,JavaScript">
+    <meta name="author" content="Arnau Copovi Santamaria">
+    <title> STAR WARS </title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/contacto.css" type="text/css" />
+    <link rel="stylesheet" href="../css/inici.css" type="text/css" />
+    <link rel="stylesheet" href="../css/select.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="../javaScript/mapa.js"></script>
+    <script src="../javaScript/data.js"></script>
+    <script src="../javaScript/alerta.js"></script>
+    <script src="../javaScript/menu.js"></script>
+    <script src="../javaScript/cntr+c.js"></script>
+    <script src="../javaScript/select.js"></script>
+    <script src="../javaScript/cambioFormulario.js"></script>
+    <script src="../Javascript/validar.js"></script>
+    <script></script>
+
+</head>
+
+<body>
+    <div id="contenidor">
+        <!-- contenidor extern de la pàgina -->
+        <header id="cap">
+            <!-- cap -->
+            <p id="rellotge"></p>
+            <h1>STAR<br />WARS</h1>
+        </header>
+        <nav id="navegacio">
+            <!-- navegacio -->
+            <ul id="botones">
+                <li><a href="../index.html"><img src="../img/iconos/home.png" alt="home" class="home" /><br />INICIO</a>
+                </li>
+                <li><a href="../html/peliculas.html"><img src="../img/iconos/peliculas.png" alt="peliculas"
+                            class="peliculas" /><br />PELÍCULAS</a></li>
+                <li id="botomenu">
+                    <a href="#"><img src="../img/iconos/multimedia.png" alt="multimedia"
+                            class="multimedia" />MULTIMEDIA</a>
+                    <ul id="contingutmenu">
+                        <li id="subapartat"><a href="../html/audio.html"><img src="../img/iconos/audio.png" alt="audio"
+                                    class="multimedia">AUDIO</a></li>
+                        <li id="subapartat"><a href="../html/multimedia.html"><img src="../img/iconos/video.png"
+                                    alt="video" class="multimedia" />VIDEO</a></li>
+                    </ul>
+                </li>
+                <li><a href="../html/reparto.html"><img src="../img/iconos/reparto.png" alt="reparto"
+                            class="reparto" /><br />REPARTO</a></li>
+                <li><a href="#"><img src="../img/iconos/contacto.png" alt="contacto"
+                            class="contacto" /><br />CONTACTO</a></li>
+            </ul>
+        </nav>
+        <main id="contingut">
+            <!-- contingut -->
+            <h2>FORMULARIO</h2>
+            <div id="divForm">
+                    <a id="normal" href="#">FORMULARIO NORMAL</a>
+                    <a id="js" href="#">FORMULARIO JAVASCRIPT</a>
+            </div>          
+            <div id="iconoMapa"><a href="../html/mapa.html"><img src="../img/iconos/mapa.png" alt="mapa" /></a></div>
+            <article id="formulario">
+                <form id="formulari" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi"><input
+                        type="hidden" id="recipient" name="recipient" value="arnaucop92@gmail.com" />
+                    <fieldset id="datos">
+                        <legend>Datos personales</legend>
+                        <li>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Introduce un Nombre"
+                                autofocus />
+                        </li>
+                        <li>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" required
+                                placeholder="Introduce Apellidos" />
+                        </li>
+                        <li>
+                            <label for="edad">Edad:</label>
+                            <input type="text" id="edad" name="edad" required placeholder="Introduce Edad" />
+                        </li>
+                        <li>
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo" required placeholder="Introduce Correo" />
+                        </li>
+                        <li>
+                            <label for="poblacion">Poblacion:</label>
+                            <input type="text" id="poblacion" name="poblacion" required
+                                placeholder="Introduce Población" />
+                        </li>
+                        <li> <label for="url">Teléfono:</label>
+                            <input type="tel" id="url" name="url" required placeholder="965.639.695"
+                                pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}" />
+                        </li>
+                    </fieldset>
+                    <fieldset id="favoritas">
+                        <legend>Peliculas Favoritas</legend>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic1" name="upsell2" value="IV" />Star
+                                Wars: Episode IV - Una nueva esperanza (1977)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic2" name="upsell" value="V" />Star Wars:
+                                Episode V - El imperio contraataca (1980)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic3" name="upsell" value="VI" />Star
+                                Wars: Episode VI - El retorno del Jedi (1983)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic4" name="upsell" value="I" />Star Wars:
+                                Episode I - La amenaza fantasma (1999)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic5" name="upsell" value="II" />Star
+                                Wars: Episode II - El ataque de los clones (2002)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic6" name="upsell" value="III" />Star
+                                Wars: Episode III - La venganza de los Sith (2005)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic7" name="upsell" value="VII" />Star
+                                Wars: Episode VII - El despertar de la fuerza (2015)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic8" name="upsell" value="VIII" />Star
+                                Wars: Episode VIII - Los ultimos Jedi (2017)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic9" name="upsell"
+                                    value="Rogue One" />Rogue One: Una historia de Star Wars (2016)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="pelic10" name="upsell"
+                                    value="Han Solo" />Han
+                                Solo: una historia de Star Wars (2018)</label>
+                        </li>
+                    </fieldset>
+                    <fieldset id="terminar">
+                        <legend>Para terminar</legend>
+                        <li>
+                            <p>¿Actor favorito?</p>
+                            <select name="actores">
+                                <option value="solo">Han Solo</option>
+                                <option value="obi">Obi-Wan Kenobi</option>
+                                <option value="luke">Luke Skywalker</option>
+                                <option value="leia">Princesa Leia</option>
+                                <option value="vader">Darth Vader</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>¿Has visto todas las peliculas?</p>
+                            <label for="vistas">Si</label>
+                            <input type="radio" id="vistas" name="vistas" value="si" />
+                            <label for="vistas">No</label>
+                            <input type="radio" id="vistas" name="vistas" value="no" />
+                        </li>
+                        <li>
+                            <p>¿Te gustaria suscribirte para recibir todas las novedades sobre Star Wars?</p>
+                            <label for="vistas">Si</label>
+                            <input type="radio" id="informacion" name="informacion" value="si" />
+                            <label for="vistas">No</label>
+                            <input type="radio" id="informacion" name="informacion" value="no" />
+                        </li>
+                        <li><textarea id="textarea" rows="2" cols="20" wrap="hard" required
+                                placeholder="Comentarios:"></textarea></li>
+                    </fieldset>
+                    <a href="mailto:arnaucop92@gmail.com?subject=Contacte pagina web llenguatges">Contactar por
+                        correo</a>
+                    <li id="botones">
+                        <input type="submit" id="enviar" value="Enviar" />
+                        <input type="reset" id="reset" value="Borrar" />
+                    </li>
+                </form>
+                <form name="RegForm" id="formularicontacte" method="post" action="#">
+                    <input type="hidden" id="recipient" name="recipient" value="arnaucop92@gmail.com" />
+
+                    <fieldset id="datos">
+                        <legend>Datos Personales</legend>
+                        <li>
+                            <label for="nom">Nombre:</label>
+                            <input type="text" id="nom" name="nom" size="30" placeholder="Introduce tu nombre" />
+                        </li>
+                        <li>
+                            <label for="cognoms">Apellido:</label>
+                            <input type="text" id="cognoms" name="cognoms" size="30"
+                                placeholder="Introduce el primer apellido" />
+                        </li>
+                        <li>
+                            <label for="mail">Correo electronico:</label>
+                            <input type="email" id="mail" name="mail" size="30" placeholder="ejemplo@gmail" />
+                        </li>
+                    </fieldset>
+                    <fieldset id="favoritas">
+                        <legend>Peliculas Favoritas</legend>
+                        <li> <label for="upsell"><input type="checkbox" id="peli1" name="upsell2" value="IV" />Star
+                                Wars: Episode IV - Una nueva esperanza (1977)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="peli2" name="upsell" value="V" />Star Wars:
+                                Episode V - El imperio contraataca (1980)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="peli3" name="upsell" value="VI" />Star
+                                Wars: Episode VI - El retorno del Jedi (1983)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="peli4" name="upsell" value="I" />Star Wars:
+                                Episode I - La amenaza fantasma (1999)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="peli5" name="upsell" value="II" />Star
+                                Wars: Episode II - El ataque de los clones (2002)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="peli6" name="upsell" value="III" />Star
+                                Wars: Episode III - La venganza de los Sith (2005)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="peli7" name="upsell" value="VII" />Star
+                                Wars: Episode VII - El despertar de la fuerza (2015)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="peli8" name="upsell" value="VIII" />Star
+                                Wars: Episode VIII - Los ultimos Jedi (2017)</label>
+                        </li>
+                        <br>
+                        <li> <label for="upsell"><input type="checkbox" id="peli9" name="upsell"
+                                    value="Rogue One" />Rogue One: Una historia de Star Wars (2016)</label>
+                        </li>
+                        <li> <label for="upsell"><input type="checkbox" id="peli10" name="upsell" value="Han Solo" />Han
+                                Solo: una historia de Star Wars (2018)</label>
+                        </li>
+                        <div id="conditional_part">
+                            <textarea name="message" cols="30" rows="10"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset id="terminar">
+                        <legend>Para terminar</legend>
+                        <li>
+                            <p>¿Has visto todas las peliculas?</p>
+                            <label for="vistas">Si</label>
+                            <input type="radio" id="vistas" name="vistas" value="si" />
+                            <label for="vistas">No</label>
+                            <input type="radio" id="vistas" name="vistas" value="no" />
+                        </li>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comentarios Extra</legend>
+                        <textarea id="comentario" name="comentario" rows="4" cols="50"
+                            placeholder="Introduce aqui si lo desea otra informacion que quieras compartir"></textarea>
+                        <br>
+                        <div id="caracteres"></div>
+                        <input type="reset" id="reset2" value="Limpiar" />
+                    </fieldset>
+                    <li id="botones">
+                            <input type="submit" id="submit" value="Enviar" />
+                            <input type="reset" id="reset" value="Borrar" />
+                    </li>
+                </form>
+            </article>
+            <div id="principal">
+                <p id="tituloFotos">ALGUNAS FOTOS</p>
+                <form name="triar" action="#">
+                    <div class="fila_formulari">
+                        <div class="camp">
+                            <select id="selectprimer" name="selectprimer">
+                                <option value="">-- Tria un valor--</option>
+                                <option value="animal">Animal</option>
+                                <option value="vegetal">Vegetal</option>
+                                <option value="mineral">Mineral</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="fila_formulari2">
+                        <div class="camp">
+                            <select id="selectsegon" name="selectsegon">
+                                <option value="">-- Tria un valor--</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div id="imatge">
+                </div>
+
+            </div>
+            <iframe src="../activitat1/mobles.xml"></iframe>
+        </main>
+        <footer id="peu">
+            <!-- peu -->
+            <ul id="navega">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./peliculas.html">PELICULAS</a></li>
+                <li><a href="./multimedia.html">MULTIMEDIA</a></li>
+                <li><a href="./reparto.html">REPARTO</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <ul id="externo">
+                <li><a href="https://www.facebook.com/StarWars"><img src="../img/iconos/facebook.png" alt="facebook"
+                            class="facebook"></a></li>
+                <li><a href="https://www.instagram.com/starwars/"><img src="../img/iconos/instagram.png" alt="instagram"
+                            class="facebook"></a></li>
+                <li><a href="https://twitter.com/starwars"><img src="../img/iconos/twitter.png" alt="twitter"
+                            class="facebook"></a></li>
+                <li><a href="https://www.youtube.com/user/starwars"><img src="../img/iconos/youtube.png" alt="youtube"
+                            class="facebook"></a></li>
+            </ul>
+            <p>™ & ® Arnau Copovi | Llenguatge de marques | IES Lluis Simarro</p>
+        </footer>
+    </div>
+</body>
+
+
+</html>

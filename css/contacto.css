@@ -1,0 +1,175 @@
+h1 {
+    line-height: 1;
+    font-size: 1em;
+    font-family: starwars;
+    background-image: url(../img/portada11-1.jpeg);
+    background-size: 100%;
+    padding: 70px;
+    color: yellow;
+    font-size: 100px;
+    text-align: center;
+}
+@font-face{
+    font-family:starwars2;
+    src:url(../fonts/Stjldbl1.ttf);
+}
+/** estils navegacio**/
+#navcontacto {
+    background-color: black;
+}
+
+/**formulario**/
+#datos {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#datos li {
+    display: inline;
+}
+
+#favoritas {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#favoritas li {
+    display: inline-flex;
+    padding: 5px;
+}
+
+#terminar {
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+#terminar li {
+    margin: 10px
+}
+
+#botones {
+    margin: 5px;
+}
+
+#enviar {
+    width: 70px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#enviar:hover {
+    background-color: yellow;
+}
+#submit {
+    width: 70px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#submit:hover {
+    background-color: yellow;
+}
+#reset2 {
+    width: 70px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#reset2:hover {
+    background-color: yellow;
+}
+#reset {
+    width: 70px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#reset:hover {
+    background-color: yellow;
+}
+
+#contingut {
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+#formulari {
+    list-style: none;
+    color: aliceblue;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+    display: none;
+}
+#formularicontacte{
+    list-style: none;
+    color: aliceblue;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+    display: none;
+}
+input{
+    margin: 5px;
+    transition: transform ease-out;
+}
+input:focus{
+    transform: scale(1.1);
+}
+input:required {
+    background-color: beige;
+}
+
+input:focus:invalid {
+    background-color: red;
+}
+
+input:focus:valid {
+    background-color: greenyellow;
+}
+textarea{
+    max-width: 450px;
+    max-height: 200px;
+}
+iframe{
+    margin-left:90px;
+    margin-bottom: 70px;
+    width: 80%;
+    height: 332px;
+}
+#conditional_part{
+    display: none;
+}
+#caracteres{
+    margin-left: 10px;
+}
+#normal{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+}
+#js{
+
+    border: 2px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+}
+#divForm{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

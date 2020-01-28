@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE pelicules SYSTEM "../dtd/Saga_dos.dtd"> -->
+<?xml-stylesheet type="text/css" href="../css/Saga_dos.css"?>
+<pelicules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xmls/Saga_dos.xsd">
+	<titulo>STAR WARS</titulo>
+	<pelicula id="peli1">
+		<titol>Star Wars: Episode I - La amenaza fantasma </titol>
+		<imatge id="img4" nomficher="4.jpg" />
+		<any>1999</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>131 min.</duracion>
+		<presupuesto>115.000.000$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Lucasfilm, Hispano Foxfilm</estudios>
+		<sinopsis>
+			<![CDATA[Con 'Star Wars: Episodio I - La amenaza fantasma'
+			hacemos un
+			viaje al pasado en el que Darth Vader no es más que un niño
+			que sueña
+			con triunfar en las carreras de vainas mientras que el
+			poderoso Jedi
+			Obi-Wan Kenobi (Ewan McGregor) es tan sólo un aprendiz
+			que sigue a su
+			maestro Qui-Gon Jinn (Liam Neeson) en una misión que
+			pretende
+			terminar con el bloqueo que la Federación de Comercio, bajo
+			la
+			influencia de dos caballeros Sith, ha impuesto al pequeño planeta
+			Naboo. Los dos Jedi, que han sido enviados en calidad de mediadores a
+			una de las naves de la Federación, descubren que la amenaza es mucho
+			mayor y deciden advertir a la joven Reina Amidala (Natalie Portman)
+			que sigue creyendo que es posible llegar a un acuerdo. Finalmente
+			Amidala entiende que su planeta esta siendo invadido y, consciente de
+			que no puede defenderse, decide seguir el consejo de los Jedis e ir a
+			presentar su caso al Senado en Coruscant. En su huida de Naboo la
+			nave en la que viajan se ve gravemente afectada, por lo que deciden
+			aterrizar en el desértico y remoto planeta de Tatooine, en el que
+			encontraran al joven Anakin Skywalker (Jake Lloyd). La presencia de
+			la fuerza en el niño es tal, que Qui-Gon sospecha que podría ser el
+			elegido. Mientras los Sith se esfuerzan por dar caza a la comitiva
+			antes de que logren llegar a la capital de la República. George Lucas
+			escribe y dirige esta película, ambientada treinta años antes de Star
+			Wars: Episodio IV - Una nueva esperanza, que supuso el regreso de la
+			conocida saga a la gran pantalla dos décadas después del estreno del
+			episodio IV en 1977. Completan el reparto Ray Park, Ian McDiarmid y
+			Terence Stamp entre otros.]]>
+		</sinopsis>
+	</pelicula>
+	<pelicula id="peli5">
+		<titol>Star Wars: Episode II - El ataque de los clones</titol>
+		<imatge id="img5" nomficher="5.jpg" />
+		<any>2002</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>142 min.</duracion>
+		<presupuesto>115.000.000$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Hispano Foxfilm, Lucasfilm</estudios>
+		<sinopsis>
+			<![CDATA[Diez años después de que la Reina Amidala (Natalie
+			Portman) y Anakin Skywalker (Hayden Christensen) se conocieran en
+			'Star Wars: Episodio I - La amenaza fantasma', el destino vuelve a
+			unirlos debido a una nueva amenaza. Ahora, el pequeño que soñaba con
+			convertirse en un caballero Jedi, es el aprendiz de Obi-Wan Kenobi
+			(Ewan McGregor), el nuevo maestro cuya difícil tarea pasa por
+			controlar el alma rebelde de su querido Padawan. Las cosas también
+			han cambiado para Padmé, la antigua regente, que ha decidido cambiar
+			el trono por la política y volcarse por completo en su nuevo trabajo
+			como Senadora. Sus propuestas terminan poniéndola en peligro cuando
+			una facción de separatistas decide atentar contra su vida. Así, el
+			Consejo Jedi decide prestarle su ayuda y enviar a Obi-Wan y Anakin
+			para protegerla. Pero el trabajo de guardaespaldas y aquel que
+			implica tratar de averiguar quien esta detrás de los intentos de
+			asesinato acaban separando a los dos caballeros Jedi y dejando a
+			Padmé bajo el cuidado y la atenta mirada de Anakin. Así surgirá entre
+			ambos un amor prohibido, que cambiará para siempre el destino de los
+			habitantes de esa galaxia muy muy lejana. George Lucas escribe y
+			dirige este film que cuenta también con actores como Christopher Lee,
+			Samuel L. Jackson o Ian McDiarmid.]]>
+		</sinopsis>
+	</pelicula>
+	<pelicula id="peli6">
+		<titol>Star Wars: Episode III - La venganza de los Sith</titol>
+		<imatge id="img6" nomficher="6.jpg" />
+		<any>2005</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>146 min.</duracion>
+		<presupuesto>113.500.000$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Hispano Foxfilm, Lucasfilm</estudios>
+		<sinopsis>
+			<![CDATA[En 'Star Wars: Episodio III - La venganza de los
+			Sith', las desavenencias entre el Senador Palpatine (Ian McDiarmid) y
+			el Consejo Jedi aumentan considerablemente haciendo que el joven
+			Caballero Jedi Anakin Skywalker (Hayden Christensen) se encuentre en
+			el medio y su lealtad se despedace. Anakin, que sufre pesadillas en
+			las que fallece su esposa Padmé (Natalie Portman), no puede evitar
+			sentirse tentado por los beneficios del lado oscuro que Palpatine no
+			para de recordarle, entre los que se encuentran la capacidad de
+			prevenir la muerte. Entonces Darth Sidious revela su intención de
+			hacerse con el control de la galaxia, mientras el cada vez más
+			poderoso aprendiz de Jedi emprende un camino cargado de ambición y
+			miedo que le llevará a convertirse en Darth Vader. Así, el destino de
+			los Jedi se verá truncado por el avance de los Sith cuyo objetivo
+			primordial es acabar con estos caballeros. Sólo Yoda y Obi-Wan Kenobi
+			(Ewan McGregor) sobreviven al exterminio de los Jedi, convirtiéndose
+			en los únicos que pueden frenar el avance del lado oscuro. George
+			Lucas escribe y dirige este film que cuenta también con actores como
+			Samuel L. Jackson o Christopher Lee.]]>
+		</sinopsis>
+	</pelicula>
+</pelicules>

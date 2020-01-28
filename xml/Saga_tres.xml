@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE pelicules SYSTEM "../dtd/Saga_tres.dtd"> -->
+<?xml-stylesheet type="text/css" href="../css/Saga_tres.css"?>
+<pelicules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xmls/Saga_tres.xsd">
+	<titulo>STAR WARS</titulo>
+	<pelicula id="peli1">
+		<titol>Star Wars: Episode VII - El despertar de la fuerza</titol>
+        <imatge id="img7" nomficher="7.jpg"/>
+		<any>2015</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>135 min.</duracion>
+		<presupuesto>200.000.000$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Walt Disney Pictures</estudios>
+		<sinopsis>
+			<![CDATA[Primera entrega de la trilogía anunciada por The
+			Walt Disney Company tras adquirir los derechos de la franquicia
+			(propiedad de Lucasfilm Ltd. hasta 2012). George Lucas, creador de la
+			saga, intervendrá tanto en este episodio como en los dos siguientes
+			en calidad de consultor creativo. J.J. Abrams llevará la batuta en
+			'Star Wars: Episodio VII: El despertar de la fuerza'; además de
+			dirigir la cinta, el creador de 'Lost' firma el libreto junto al
+			veterano Lawrence Kasdan, una de las personas que más conoce el
+			Universo y los personajes de la saga. En esta entrega se darán cita
+			antiguos miembros del reparto original (Harrison Ford, Carrie Fisher
+			o Mark Hamill) junto a nuevas promesas, como John Boyega o Daisy
+			Ridley. 'Star Wars: El despertar de la fuerza' comienza
+			aproximadamente 30 años después de los acontecimientos de 'Star Wars:
+			El retorno del Jedi'. En esta ocasión conoceremos a tres nuevos
+			protagonistas: una joven llamada Rey, un chico llamado Finn y un
+			piloto de naves llamado Poe Dameron. Ellos tres formarán parte
+			importante de un nuevo enfrentamiento entre el bien y el mal,
+			encarnados por la Resistencia y la Primera Orden. 38 años después de
+			la primera parte, llega un nuevo episodio de 'La Guerra de las
+			Galaxias'. El lado oscuro regresa y lo hace con mayor fiereza que la
+			última vez. El malvado Kylo Ren (Adam Driver) desea emular el poder
+			de Darth Vader, provocando una hecatombe en la paz intergaláctica.
+			Una nueva heroína surgirá del lado luminoso, Rey (Daisy Ridley). Le
+			acompañará un Stormtrooper arrepentido, Finn (John Boyega), y un
+			piloto rebelde Poe Dameron (Oscar Isaac). Juntos vencerán a un lado
+			oscuro que regresa. Kylo Ren no viene solo, le acompañan la Capitán
+			Phasma (Gwendoline Christie) y el General Hux (Domhnall Gleeson), que
+			están a la orden del Líder Supremo Snoke (Andy Serkis), maestro de
+			Kylo Ren y máxima figura del lado oscuro. Junto a los nuevos héroes,
+			estarán el trío de personajes original para ayudarles en su nueva
+			misión. Han Solo, la princesa Leia (convertida en general), Chewbacca
+			y Luk Skywalker serán piezas clave para que Rey, Finn y Poe Dameron
+			venzan al lado oscuro.]]>
+		</sinopsis>
+	</pelicula>
+	<pelicula id="peli2">
+		<titol>Star Wars: Episode VIII - Los ultimos Jedi</titol>
+        <imatge id="img8" nomficher="8.jpg"/>
+		<any>2017</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>150 min.</duracion>
+		<presupuesto>212.000.000$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Walt Disney Pictures</estudios>
+		<sinopsis>
+			<![CDATA[Octava entrega de la saga galáctica y segundo
+			episodio de la trilogía anunciada por The Walt Disney Company tras
+			adquirir los derechos de la franquicia (propiedad de Lucasfilm Ltd.
+			hasta 2012 cuando la vendió por 4.000.000.000 $). George Lucas,
+			creador de la saga, volverá a intervenir en calidad de consultor
+			creativo, en este film dirigido por Rian Johnson quien también se
+			encarga del guion junto a Lawrence Kasdan, cineasta que repite en
+			esta tarea tras 'Star Wars: El despertar de la Fuerza'. Rey
+			continuara el viaje que emprendió en el Episodio VII junto a Finn,
+			Poe y Luke Skywalker en una película cuya trama se centrará en la Era
+			de la Nueva República, situada temporalmente veinte años después de
+			haber terminado la historia de la trilogía original. Mark Hamill,
+			Carrie Fisher, Adam Driver, Daisy Ridley, John Boyega, Oscar Isaac,
+			Lupita Nyong'o, Domhnall Gleeson, Anthony Daniels, Gwendoline
+			Christie y Andy Serkis, retoman sus respectivos personajes mientras
+			Benicio del Toro, Laura Dern y la joven promesa Kelly Marie Tran
+			debutan en el universo de 'Star Wars'.]]>
+		</sinopsis>
+	</pelicula>
+	<pelicula id="peli3">
+		<titol>Star Wars: Episode IX (2019) PRÓXIMAMENTE</titol>
+        <imatge id="img9" nomficher="9.jpg"/>
+		<any>2019</any>
+		<saga>Star Wars</saga>
+		<pais>EE.UU.</pais>
+		<duracion>PRÓXIMAMENTE min.</duracion>
+		<presupuesto>PRÓXIMAMENTE$</presupuesto>
+		<genero>Ciencia ficción, Aventura</genero>
+		<estudios>Walt Disney Pictures</estudios>
+		<sinopsis>
+			<![CDATA[Vuelve la saga intergaláctica más famosa de la
+			historia del cine con la novena entrega de La Guerra de las Galaxias.
+			Star Wars: Episodio IX supone el desenlace definitivo de la trilogía
+			que comenzaba con Star Wars: Episodio VII - El despertar de la Fuerza
+			(2015). En ella Rey, Poe y Finn tendrán que hacer frente a un último
+			reto antes de que acabar su aventura.
+
+			Esta última parte de la tercera trilogía de la saga galáctica cuenta con
+			un reparto de actores en el que repiten John Boyega (Pacific Rim:
+			Uprising, El círculo) como Finn, Oscar Isaac (La promesa, X-Men:
+			Apocalipsis) como Poe Dameron y Mark Hamill (Star Wars: Episodio VIII
+			- Los últimos Jedi, Kingsman: Servicio secreto) como el mítico Luke
+			Skywalker. Tras la salida de Colin Trevorrow, J.J. Abrams (Star Wars:
+			Episodio VII - El despertar de la Fuerza) se encarga de las funciones
+			de director y guionista, mientras que Chris Terrio (Argo) trabajará
+			junto a él en el libreto.]]>
+		</sinopsis>
+	</pelicula>
+</pelicules>

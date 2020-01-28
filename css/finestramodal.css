@@ -1,0 +1,248 @@
+
+/******************************/
+/* estils de la finestra modal*/
+/******************************/
+@font-face {
+    font-family: starwars2;
+    src: url(../fonts/Starjedi.ttf)
+}
+#tancaFinestra{
+	color: aliceblue;
+}
+#botoModal{
+	position: absolute;
+	bottom: 10px;
+	left: 700px;
+	
+}
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }  
+	20% { 
+    opacity: 1; 
+  }
+	90% { 
+    opacity: 1; 
+  }
+	100% { 
+	opacity: 0;
+	
+  }
+}
+.intro{
+	font-size: 200%; 
+	color: #6699ff;
+    animation-name: intro;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+	position: absolute;
+	left: 550px;
+	top: 300px;
+	opacity: 0;
+}
+@keyframes titulo{
+	from{position: absolute;font-size: 500px;top:-150px;left:50px;margin: 0px;}
+	to{position: absolute;font-size: 0px;top:300px;left:750px;}
+	0%{
+		opacity: 1;
+	}
+	90% { 
+		opacity: 1; 
+	  }
+		100% { 
+		opacity: 0;
+		
+	  }
+}
+#titulo{
+	animation-name: titulo;
+    animation-duration: 8s;
+	animation-timing-function: ease-out;
+	animation-delay: 6s;
+	color: yellow;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	margin: 0;
+	font-family: starwars2;
+	line-height: 1em;
+}
+#finestraModal{
+		background-image: url(../img/espacio.png);
+		position: absolute;
+		display: none;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+}
+@keyframes p1{
+	from{position: absolute;font-size: 40px;bottom:100px;left: 570px;margin: 0px;}
+	to{position: absolute;font-size: 15px;bottom:400px;left: 710px;margin: 0px;}
+	0%{
+		opacity: 1;
+	}
+	90% { 
+		opacity: 1; 
+	  }
+		100% { 
+		opacity: 0;
+		
+	  }
+}
+#p1{
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	animation-delay: 13s;
+	opacity: 0;
+}
+#p2{
+	animation-delay: 14.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p3{
+	animation-delay: 16s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p4{
+	animation-delay: 17.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p5{
+	animation-delay: 19s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p6{
+	animation-delay: 22s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p7{
+	animation-delay: 23.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p8{
+	animation-delay: 25s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p9{
+	animation-delay: 26.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p10{
+	animation-delay: 28s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p11{
+	animation-delay: 29.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p12{
+	animation-delay: 31s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p13{
+	animation-delay: 34s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p14{
+	animation-delay: 35.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p15{
+	animation-delay: 37s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p16{
+	animation-delay: 38.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p17{
+	animation-delay: 40s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p18{
+	animation-delay: 41.5s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+#p19{
+	animation-delay: 43s;
+	animation-name: p1;
+    animation-duration: 20s;
+	animation-timing-function: ease-out;
+	opacity: 0;
+}
+.titles p{
+	
+	color: yellow;
+	top: auto;
+    bottom: 0;
+  	font-size: 200%;
+  	text-align: justify;
+	overflow: hidden; 
+	transform: perspective(300px) rotateX(25deg); 
+	line-height: 1.35em;
+	text-align: center;
+	position: absolute;
+	margin: 0px;
+}
+
+/***************************************************************/
+/*animació per fer baixar la finestra des de fora de la pàgina */
+/***************************************************************/

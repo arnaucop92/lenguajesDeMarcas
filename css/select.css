@@ -1,0 +1,43 @@
+
+input,textarea{
+	border:solid 2px black;
+	margin:10px;
+}
+#principal{
+	margin:20px;
+	border:solid 1px red;
+	padding:20px;
+	background-color:#808080;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#imatge{
+	display:none;
+	margin:20px;
+	border:solid 1px blue;
+	padding:10px;
+	background-color:#DDD;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.camp{
+	display:inline-block;
+	text-align:center;
+	width:80%;
+	background-color:#8080FF;
+}
+.fila_formulari{
+	text-align:center;
+	margin-top:10px;
+	background-color:#CCC;
+}
+.fila_formulari2{
+	text-align:center;
+	margin-top:10px;
+	background-color:#CCC;
+}
+#selectsegon{
+	opacity: 0;
+}

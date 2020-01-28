@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 1em;
+    font-family: starwars;
+    background-image: url(../img/cabeza4.jpg);
+    background-size: 100%;
+    padding: 70px;
+    color: yellow;
+    font-size: 100px;
+    text-align: center;
+}
+#cabeza{
+    position: absolute;
+    top: 35px;
+    width: 14%;
+    animation-name: cabeza;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes cabeza{
+    from { transform: none; }
+    50% { transform: scale(1.6); }
+    to { transform: none; }
+}
+/** estils de navegacio**/
+#navpelicula{
+    background-color:black;
+    color: black;
+    
+}
+/**enllaç XML**/
+#trilogia a{
+    font-size: 20px;
+    font-family:Starwars;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color:yellow;
+    padding: 10px;
+}
+#trilogia{
+    margin-top: 30px;
+}
+/** estils de contingut**/
+#contingut h2 {
+    margin-top: 80px;
+}
+
+#contingut {
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+#contingut ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contingut ul li {
+    width: 200px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#contingut ul li a {
+    display: block;
+    transition: transform 1s ease-out;
+}
+
+#contingut ul li a:hover {
+    transform: scale(1.1);
+}
+
+#contingut a {
+    text-decoration: none;
+    outline: none;
+}
+
+#contingut a:link {
+    color: white;
+}
+
+#contingut a:visited {
+    color: darkgray;
+}
+
+#peli1 p {
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+#peli2 p {
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#peli3 p {
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+
+#peli4 p {
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#peli5 p {
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#peli6 p {
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+#peli7 p {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#peli8 p {
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+
+#peli9 p {
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+#peli10 p {
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#peli11 p {
+    padding-bottom: 4px;
+    padding-right: 10px;
+}
+
+#peli1 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+
+}
+
+#peli2 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli3 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli4 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli5 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli6 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli7 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli8 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli9 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli10 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    border-radius: 8px;
+
+}
+
+#peli11 {
+    color: antiquewhite;
+    margin-top: 60px;
+    background-image: url("../img/h3.jpg");
+    padding-bottom: 40px;
+    border-radius: 8px;
+    margin-bottom: 140px;
+
+}
+
+/** enllaç trailer**/
+.trailer {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background-color: #232323;
+}
+
+.trailer:link {
+    color: darkgray;
+}
+
+#peli1 a:hover {
+    color: yellow;
+}
+
+h3 {
+    padding-top: 10px;
+    color: floralwhite;
+    margin-left: 280px;
+}
+
+/**div buit**/
+#pel1 {
+    margin-bottom: 130px;
+}
+
+#pel2 {
+    margin-bottom: 130px;
+}
+
+#pel3 {
+    margin-bottom: 130px;
+}
+
+#pel1 {
+    margin-bottom: 130px;
+}
+
+#pel4 {
+    margin-bottom: 130px;
+}
+
+#pel5 {
+    margin-bottom: 130px;
+}
+
+#pel6 {
+    margin-bottom: 130px;
+}
+
+#pel7 {
+    margin-bottom: 130px;
+}
+
+#pel8 {
+    margin-bottom: 130px;
+}
+
+#pel9 {
+    margin-bottom: 130px;
+}
+
+#pel10 {
+    margin-bottom: 130px;
+}
+
+/**fotografies enllaç intern **/
+.pelicula1 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.pelicula2 {
+    margin-top: 100px;
+    width: 105.9%;
+
+}
+
+.pelicula3 {
+    margin-top: 100px;
+    width: 103%;
+}
+
+.pelicula4 {
+    margin-top: 100px;
+    width: 107%;
+}
+
+.pelicula5 {
+    margin-top: 100px;
+    width: 110%;
+}
+
+.pelicula6 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.pelicula7 {
+    margin-top: 100px;
+    width: 104%;
+}
+
+.pelicula8 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.pelicula9 {
+    margin-top: 100px;
+    width: 105%;
+}
+
+.pelicula10 {
+    margin-top: 100px;
+    width: 103%;
+}
+
+.pelicula11 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* fotografies contingut*/
+.peli1 {
+    width: 27%;
+}
+/* estils tooltip */
+#tooltiptext1 {
+    position: absolute;
+    background-color: rgb(72, 70, 173);
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px #444);
+    border: 3px solid whitesmoke;
+    margin-bottom: 30px;
+    color: azure;
+    padding: 10px;
+}
+#tooltiptext2 {
+    position: absolute;
+    background-color: rgb(72, 70, 173);
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px #444);
+    border: 3px solid whitesmoke;
+    margin-bottom: 30px;
+    color: azure;
+    padding: 10px;
+}
+#tooltiptext3 {
+    position: absolute;
+    background-color: rgb(72, 70, 173);
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px #444);
+    border: 3px solid whitesmoke;
+    margin-bottom: 30px;
+    color: azure;
+    padding: 10px;
+}
+  

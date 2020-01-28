@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="1.0">
+	<xs:element name="pelicules" type="tipus_pelicules"/>
+	<xs:complexType name="tipus_pelicules">
+		<xs:sequence>
+			<xs:element name="titulo" type="xs:string" minOccurs="1"
+				maxOccurs="1" />
+			<xs:element name="pelicula" type="tipus_pelicula" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="tipus_pelicula">
+		<xs:sequence>
+			<xs:element name="titol" type="xs:string" minOccurs="1"
+				maxOccurs="1" />
+			<xs:element name="imatge" type="tipus_imatge"/>
+			<xs:element name="any" type="xs:string" minOccurs="1"
+				maxOccurs="1" />
+			<xs:element name="saga" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="pais" type="xs:string" minOccurs="1"/>
+			<xs:element name="duracion" type="xs:string" />
+			<xs:element name="presupuesto" type="xs:string" />
+			<xs:element name="genero" type="xs:string" />
+			<xs:element name="estudios" type="xs:string" />
+			<xs:element name="sinopsis" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="tipus_imatge">
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="nomficher" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

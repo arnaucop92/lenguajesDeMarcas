@@ -1,0 +1,16 @@
+<!ELEMENT pelicules (titulo,pelicula*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT pelicula (titol,imatge,any,saga,pais,duracion,presupuesto,genero,estudios,sinopsis)>
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT imatge EMPTY>
+<!ATTLIST imatge id ID #REQUIRED>
+<!ATTLIST imatge nomficher NMTOKEN #REQUIRED>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT saga (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT presupuesto (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT estudios (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>

@@ -1,0 +1,155 @@
+pelicules {
+    background-image: url(../img/fondo1.png);
+    background-attachment: fixed;
+}
+pelicula {
+	background-image: url(../img/h3.jpg);
+	display:block;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 270px;
+    margin-right: 270px;
+	padding: 20px;
+	line-height:30px;
+	border-radius: 8px;
+}
+titulo {
+    text-align: left;
+    text-shadow: 0px 0px 9px black;
+    margin-left: 450px;
+    font-family: Starjedi;
+    color: yellow;
+    font-size: 100px;
+}
+titol {
+	font-size:30px;
+	border-bottom-style: solid;
+    border-bottom-color: #828282;
+    border-top-style: solid;
+    border-top-color: #828282;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    color: white;
+}
+any {
+	color:white;
+	margin: 20px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+	padding-top:40px;
+}
+saga {
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+pais {
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+duracion{
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+presupuesto{
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+genero{
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+estudios{
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+	width:80%;
+}
+sinopsis{
+	color:white;
+	margin: 40px;
+	display:block;
+	margin:10px auto;
+}
+/**mostrar etiquetes**/
+any:before {
+	content:"A\00d1O: ";
+}
+saga:before {
+	content:"SAGA: ";
+}
+pais:before {
+	content:"PA\00cdS: ";
+}
+duracion:before {
+	content:"DURACI\00d3N: ";
+}
+presupuesto:before {
+	content:"PRESUPUESTO: ";
+}
+genero:before{
+	content:"G\00c9NERO: ";
+}
+estudios:before{
+	content:"ESTUDIOS: ";
+}
+sinopsis:before{
+	content:"SINOPSIS: ";
+}
+any:after{
+	float:right;
+	content:'STAR WARS 'attr(tipus);
+	color:red;
+	font-size:1.5em;
+	display:block;
+	border:solid 1px red;
+	padding:4px;
+	color:red;
+	background-color:yellow;
+	border-radius:10px;
+	transform:rotate(15deg);
+	font-family:Starjedi;
+}
+imatge{
+    float:left;
+    display: block;
+    background-size: cover;
+    width: 300px;
+    height: 460px;
+    margin-right: 20px;
+}
+imatge[id="img7"] {
+    background-image: url(../img/peliculas/7.jpg);
+    background-color: white;
+}
+imatge[id="img8"] {
+    background-image: url(../img/peliculas/8.jpg);
+    background-color: white;
+}
+imatge[id="img9"] {
+    background-image: url(../img/peliculas/9.jpg);
+    background-color: white;
+}
+/***********/
+/*font-face*/
+/***********/
+@font-face{
+	font-family:Starjedi;
+	src:url('../fonts/Starjedi.ttf');
+}

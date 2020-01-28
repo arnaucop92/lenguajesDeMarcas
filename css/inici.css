@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: starwars;
+    src: url(../fonts/Starjhol.ttf)
+}
+
+#contenidor {
+    background-image: url(../img/fondo1.png);
+    background-attachment: fixed;
+}
+
+h1 {
+    display: block;
+    transition: transform 1s ease-out;
+}
+#nave1{
+    position: absolute;
+    right: 200px;
+    top:30px;
+    display:inline;
+    width: 20%;
+    animation-name: nave1;
+    animation-duration: 17s;
+    animation-timing-function: ease-in;
+}
+#nave2{
+    width: 0%;
+    animation-name: nave2;
+    animation-duration: 12s;
+    animation-timing-function: ease-in;
+    position: absolute;
+}
+h1:hover {
+    transform: scale(1.1);
+}
+
+/* estils de navegacio */
+#navegacio {
+    background-color: #232323;
+    position: sticky;
+    top: 0;
+}
+
+#botones {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navegacio ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    width: 135px;
+}
+
+#navegacio ul li:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#navegacio ul li p {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#navegacio a {
+    color: #A9A9A9;
+    text-decoration: none;
+    outline: none;
+}
+
+#navegacio a:link {
+    color:#A9A9A9;
+}
+#navegacio a:hover{
+    color:black;
+}
+
+
+.home {
+    width: 25%;
+}
+
+.peliculas {
+    width: 25%;
+}
+
+.multimedia {
+    width: 25%;
+}
+
+.reparto {
+    width: 25%;
+}
+
+.contacto {
+    width: 25%;
+}
+
+/*estils de contingut*/
+h2 {
+    border-bottom-style: solid;
+    border-bottom-color: #828282;
+    border-top-style: solid;
+    border-top-color: #828282;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    color: white;
+    margin-top: 70px;
+    transition: box-shadow 1s; 
+}
+h2:hover{
+    box-shadow: 9px 10px 5px 0px white; 
+    
+}
+/*estils de peu*/
+
+#peu {
+    background-image: url(../img/peu1.jpg);
+    background-size: 100%;
+    text-align: center;
+    object-position: left;
+
+}
+
+#navega li {
+    padding: 20px;
+    display: inline-block;
+    font-size: 9px;
+    margin-top: 80px;
+}
+
+#navega ul li {
+    padding-left: 0px;
+    margin-top: 80px;
+}
+#externo li{
+    display: inline-block;
+    padding: 5px;
+}
+.facebook{
+    width: 70%;
+}
+#peu p {
+    color: darkgray;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+#peu a {
+    text-decoration: none;
+    outline: none;
+}
+
+#peu a:link {
+    color: darkgrey;
+}
+
+#peu a:visited {
+    color: darkgray;
+}
+@keyframes nave2{
+    from{width: 0%;top:120px;right: 180px;}
+    to{width: 50%;top:120px;right:2800px;}
+}
+@keyframes nave1{
+    to {width: 20%;}
+    from{width: 0%;}
+}
+#rellotge{
+    position: absolute;
+    color: yellow;
+    font-family: starwars;
+    text-align: center;
+    top:210px;
+    left: 250px;
+    font-size: 20px;
+}
+#alert{
+    text-align: center;
+    padding: 5px;
+}
+.tancar{
+    margin-right: 10px;
+}
+#alert img{
+    width: 1%;
+}
+#contingutmenu{
+    display: none;
+    color: black;
+    position: absolute;   
+    width: 100%;
+    top: 70px;
+    left: 0px;
+}
+#subapartat{
+    background-color: palegoldenrod;
+    border-top: 2px solid black;
+}
+#subapartat a{
+    color: black;
+}
+/*ESTILS ICONO MAPA*/
+#iconoMapa img{
+        position: absolute;
+        width: 4%;
+        top: 510px;
+        right: 120px;
+        
+}
+/*ESTILS DEL MAPA*/
+#mapa{ 
+    width: 100%;
+    height: 100%;
+}
+/*ICONO JSON*/
+#iconoJson{
+    position: absolute;
+    width: 3%;
+    top: 500px;
+    left: 120px;
+}
